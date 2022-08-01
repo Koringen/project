@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container {
+    display:flex
+}
+
+.container div {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.logo {
+    height: 50px;
+    width: 60px;
+}
+
+.c0 {
+    width: 7%;
+}
+
+.c1 {
+    width: 9%;
+}
+
+.c2 {
+    width: 8%;
+    color: black;
+}
+
+.c3 {
+    width: 7%;
+    color: black;
+}
+
+.c4 {
+    width: 8%;   
+}
+
+.c5 {
+    width: 45%;
+}
+
+.c6 {
+    width: 15%;
+}
+
+.name-and-string-container div {
+    /* display: flex; */
+    margin-top: 13vh;
+    text-align: center;
+}
+
+.name-container {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+
+.string-container {
+    width: 550px;
+    height: 70px;
+    background-color: aliceblue;
+    border: 0px solid black;
+    margin-left: auto; 
+    margin-right: auto;
+    border-radius: 35px;
+}
+
+.text {
+    padding-top: 23px;
+    padding-right: 340px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    color: gray;
+}
